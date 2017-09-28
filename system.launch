@@ -1,0 +1,7 @@
+<launch>	
+	<node name="raw_data" pkg="primes_tutorial" type="raw_data" output="screen"  />
+	<node name="prime_filter" pkg="primes_tutorial" type="prime_filter" output="screen" />
+	<node name="unique_filter" pkg="primes_tutorial" type="unique_filter" output="screen" />
+	<node name="logger" pkg="primes_tutorial" type="logger" output="screen" cwd="node" />
+	<node name="summarizer" pkg="primes_tutorial" type="summarizer" output="screen" />
+</launch>
